@@ -1,0 +1,65 @@
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
+
+/* تنظیمات هدر */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+}
+
+/* تنظیمات آیکن جستجو */
+#search {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* تنظیمات اینپوت جستجو */
+#input-search {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: black;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+/* تنظیمات SVG */
+.search-button {
+    position: absolute;
+    width: 16px;
+    left: 16px;
+    top: 16px;
+    fill: #0069ff;
+}
+
+.x {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 16px;
+    right: 16px;
+    fill: #ff0000;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
